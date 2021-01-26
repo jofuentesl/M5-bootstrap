@@ -1,0 +1,143 @@
+
+@import url(fontawesome.css);
+body {
+    color: #5a5a5a;
+  }
+
+/* cargamos img menu móvil*/
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../img/Hamburger_icon.svg");
+}
+
+/* estilos navegación */
+.navbar-dark .navbar-brand {
+    width: 250px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #666666;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #333333;
+}
+.nav-link {
+  text-transform: uppercase;
+}
+
+ /* Estilos navegacion acceso y registro */
+ .nav__responsive {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.btn-light {
+  color: #212529;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-light:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-light.focus, .btn-light:focus {
+  color: #212529;
+  background-color: 0 0 0 .1rem rgba(255,255,255,.9);
+  border-color: #ffffff;
+  box-shadow: 0 0 0 .1rem rgba(255,255,255,.9);
+}
+.nav__desktop {
+  display: none;
+}
+.nav__responsive li a  {
+  margin: 15px;
+}
+
+
+
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel {
+    padding: 0px;
+  }
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .card-img-top {
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  /* Definimos estilos del footer */
+  .footer__item {
+    font-weight: 900;
+    color: #ffffff;
+  }
+  .footer__rrss {
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+  }
+  .footer__item--style {
+    color: #28a745;
+  }
+  .footer__item--style:hover {
+    color:#218838;
+    text-decoration:none;
+  }
+  .rrss__nav__item {
+    margin-left: 30px;
+  }
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .card__block {
+    padding: 0px 0px 15px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .nav__desktop {
+    display: block;
+  }
+  .nav__block__responsive {
+    display: none;
+  } 
+  .card__block__even {
+    padding: 0px 15px;
+  }
+  .block__footer {
+    height: 75px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+}
+
